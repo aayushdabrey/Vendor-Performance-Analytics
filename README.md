@@ -2,35 +2,49 @@
 
 ## Overview
 
-Built an end-to-end vendor performance analytics project using Python, SQL, SQLite and Power BI.
+An end-to-end Data Analytics project focused on evaluating vendor performance, purchase trends, and procurement efficiency using SQL, Python, and Data Visualization.
 
-## Technologies Used
+## Business Problem
 
-- Python
-- Pandas
-- SQLite
-- SQLAlchemy
-- Matplotlib
-- Power BI
+Retail and wholesale businesses often struggle to identify:
+
+* Top-performing vendors
+* High-value procurement sources
+* Purchasing trends
+* Opportunities to reduce procurement costs
+
+This project analyzes vendor purchase data and provides actionable insights through SQL queries and Python-based exploratory data analysis.
+
+## Tech Stack
+
+* Python
+* Pandas
+* SQLite
+* SQLAlchemy
+* Matplotlib
+* Jupyter Notebook
 
 ## Project Workflow
 
-1. CSV Data Ingestion
-2. SQLite Database Creation
-3. SQL Data Aggregation
-4. Vendor Performance Analysis
-5. Exploratory Data Analysis
-6. Data Visualization
-7. Dashboard Reporting
+1. Data ingestion from multiple CSV files into SQLite.
+2. Data cleaning and transformation using SQL.
+3. Vendor-level aggregation and KPI generation.
+4. Exploratory Data Analysis (EDA).
+5. Visualization of vendor purchase performance.
+6. Exporting summarized datasets for reporting.
 
 ## Key Insights
 
-- Identified top-performing vendors by purchase amount.
-- Calculated vendor contribution percentages.
-- Analyzed purchase quantity vs purchase amount relationships.
-- Generated business insights for procurement optimization.
+* Identified top 10 vendors contributing the highest purchase amounts.
+* Analyzed purchase quantity vs purchase amount relationship.
+* Generated vendor-level procurement summaries.
+* Built reusable analytics workflow for business reporting.
 
 ## Files
 
-- Hindi_Project.ipynb
-- vendor_summary.csv
+* Hindi_Project.ipynb → Complete project notebook
+* vendor_summary.csv → Aggregated vendor analysis dataset
+
+## Skills Demonstrated
+
+SQL | Python | Pandas | Data Cleaning | Data Analysis | Data Visualization | Business Analytics
